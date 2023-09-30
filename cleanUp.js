@@ -8,23 +8,29 @@
 
 
 // EX 1:
-function askForName() { console.log("Hello, what is your name?") }
-
+function askForName() { 
+  console.log("Hello, what is your name?") 
+}
 askForName()
+
+// I formatted the code differently to be more in line with the previous work we've done in class.
 
 
 // EX 2:
-function addThreeNums(first, second, third) {
-var sum = first + second + third
+function addNums(first, second, third) {
+  var sum = first + second + third
 return sum;
       }
 
-addThreeNums(1, 2, 3);
-addThreeNums(4, 2, 7);
+
+addNums(1, 2, 3);
+addNums(4, 2, 7);
+
+// The code here already worked so what I did was reformat it to make it look cleaner then I shortened the function name.
 
 
 // EX 3:
-func makeFreshPesto(){
+function makeFreshPesto(){
   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
   console.log("Pulse basil and pine nuts");
   console.log("Add garlic and cheeses");
@@ -33,6 +39,7 @@ func makeFreshPesto(){
 
 makeFreshPesto();
 
+// All I did here was not abreviate function as "Func" and test the code again which fixed it.
 
 //  EX 4:
 function average(num1, num2) 
@@ -42,3 +49,5 @@ var sum = num1 + num2;
 
 return avg
   }
+
+  // I tried various things here including relocating the Var commands to the top, which broke the code until I created a var for num1 and num2 but all thqt did was create more work in the end for the same result. After looking through my notes and online resources I'm not sure how to clear this up at the moment.
